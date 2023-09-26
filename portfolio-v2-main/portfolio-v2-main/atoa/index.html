@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="#">Arthur Mendes Rodrigues</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+           <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>-->
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contact</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+            </ul>
+            <!--<form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>-->
+          </div>
+        </div>
+      </div>
+    </nav>
+      <!--HOME-->
+      <div class="content">
+        <div class="img">
+          <img src="assets/img/Imagem_Perfil.jpg" class="img-thumbnail" alt="Perfil Pessoal">
+        </div>
+        <div class="espaco"></div>
+        <div class="content-text">
+          <h1>I'm <span>Arthur Mendes</span></h1>
+          <h3 id="subtitulo">Web Developer Junior</h3>
+        </div>
+      </div>
+
+      <!--SOBRE MIM -->
+      <section id="about" class="sec">
+        <div class="text-about">
+          <p class="textResponsive fs-4 text-start" style="font-weight: bold; color: aliceblue;">Olá, me chamo <span>Arthur</span>, tenho 19 anos e sou <span>apaixonado pela tecnologia</span>. <br>
+            Sou <span> formado pela Etec no curso Desenvolvimento de Sistemas</span>, <br> curso Ciências da Computação na Universidade Cruzeiro do Sul,<br> e <span>atuo como Programador Júnior</span> na <span>Ikone Automação S.A.</span> <br>
+            Minha formação profissional ainda está se iniciando, <br> mas pretendo demonstrar minhas habilidades e enfrentar novos desafios. <br>
+            Sou proativo, persistente, determinado e procuro aprimorar meus conhecimentos, <br>
+            contribuindo assim para o meu desenvolvimento profissional e, <br>
+            consequentemente, para o crescimento da empresa. <br>
+            Tenho experiência com <span>HTML5, CSS3, JavaScript, C, C#, .NET, SqlServer e OracleDB</span>.
+          </p>
+        </div>
+      </section>
+
+      <!--PROJETOS-->
+      <section id="projects" class="sec1">
+        <div class="img-container">
+          <div class="img-pro">
+            <a href="https://arthur-api-viacep.netlify.app/">
+              <img src="./assets/img/API-ViaCep.jpeg" class="img-thumbnail" alt="">
+            </a>
+          <p class="fs-5">Consumindo API ViaCep - Usando JSON</p>
+          </div>
+          <div class="img-pro">  
+            <a href="https://techpack.netlify.app/">
+              <img src="./assets/img/tech-pack.jpeg" class="img-thumbnail" alt="">
+            </a>
+            <p class="fs-5">Site teste para treinar CSS/HTML/JS</p>  
+          </div>
+          <div class="img-pro">
+            <a href="https://arthur-mendes.netlify.app/">
+              <img src="./assets/img/portfolio1.jpeg" class="img-thumbnail" alt="">
+            </a>
+            <p class="fs-5">Primeira versão do portfolio Usando HTML/CSS/JS</p>
+          </div>
+
+          <div class="img-pro">
+            <a href="https://github.com/art-men">
+              <img src="./assets/img/Captura de tela 2023-09-26 110717_resized.png" class="img-thumbnail" alt="">
+            </a>
+          <p class="fs-5">Mais projetos aqui!</p>
+          </div>
+          
+        </div>
+      </section>
+      <!--CONTATO-->
+      <section id="contacts" class="sec">
+        <div class="text-about">
+          <div class="contato-cont">
+            <div class="contato-info">
+                <div class="contact-item">
+                  <p class="fs-2" style="font-weight: bold; color: aliceblue;">Email</p>
+                    <p class="fs-4" style="font-weight: bold;">artmendes38.pro@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                  <p class="fs-2" style="font-weight: bold; color: aliceblue;">Telefone</p>
+                    <p class="fs-4"  style="font-weight: bold;">(11)94781-8368</p>
+                </div>
+                <div class="contact-item">
+                    <p class="fs-2" style="font-weight: bold; color: aliceblue;">Redes socias</p>
+                    <a href="https://github.com/art-men" target="_blank"><img src="./assets/img/icons8-github-75.png" alt="Git-Hub Profissional"></a>
+                    <a href="https://www.instagram.com/eoo_artmen/" target="_blank"><img src="./assets/img/instagram-icon.png" alt="Instagram Pessoal"></a>
+                    <a href="https://www.linkedin.com/in/arthur-mendes-562233210/" target="_blank"><img src="./assets/img/linkedin-icon.png" alt="Linkedin Profissional"></a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="footer sec1">
+        <div class="footer-list">
+            <h2 class="footer-title">Navegação</h2>
+            <ul class="content-description">
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+               
+        </div>
+        <div class="footer-list">
+            <h2 class="footer-title">Fale comigo!</h2>
+            <ul class="content-description">
+                <li>(11)94781-8368</li>
+                <li>artmendes38.pro@gmail.com</li>
+            </ul>
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/eoo_artmen/" target="_blank"><img src="assets/img/instagram-icon.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/arthur-mendes-562233210/" target="_blank"><img src="assets/img/linkedin-icon.png" alt=""></a>
+            </div> 
+        </div>
+
+        
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+      </script>
+</body>
+</html>
